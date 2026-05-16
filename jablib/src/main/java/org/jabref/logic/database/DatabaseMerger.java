@@ -108,7 +108,7 @@ public class DatabaseMerger {
         }
     }
 
-    /// @param target        the metaData that is  the merge target
+    /// @param target        the metaData that is the merge target
     /// @param other         the metaData to merge into the target
     /// @param otherFilename the filename of the other library. Pass "unknown" if not known.
     public void mergeMetaData(@NonNull MetaData target,

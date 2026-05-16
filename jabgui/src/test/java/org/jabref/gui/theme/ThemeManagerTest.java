@@ -88,7 +88,7 @@ class ThemeManagerTest {
         assertEquals(TEST_CSS_DATA, cssLocationAfterDeletion.get());
     }
 
-    /// This test was orinially part of a more complex test. After a major refactor and simplification of the theme
+    /// This test was originally part of a more complex test. After a major refactor and simplification of the theme
     /// subsystem, it was decided to drop this functionality in particular, as there is no use case for it and removing
     /// this does simplify the implementation of the theme system.
     /// See https://github.com/JabRef/jabref/pull/7336#issuecomment-874267375

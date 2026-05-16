@@ -60,7 +60,7 @@ class CustomEntryTypesTabViewModelTest {
         CustomEntryTypesTabViewModel model = new CustomEntryTypesTabViewModel(BibDatabaseMode.BIBLATEX, entryTypesManager, mock(DialogService.class), preferences);
         model.setValues();
 
-        // This is similar ot the standard online type, but has no OR fields
+        // This is similar to the standard online type, but has no OR fields
         BibEntryType onlineWithoutOrFields = new BibEntryTypeBuilder()
                 .withType(StandardEntryType.Online)
                 .withRequiredFields(StandardField.AUTHOR, StandardField.EDITOR, StandardField.TITLE, StandardField.DATE, StandardField.URL)
